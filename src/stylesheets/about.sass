@@ -1,0 +1,126 @@
+$background-width: 100%
+body
+    background-color: black;
+.test
+    border: 1px sloid red
+
+.about_background
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url('../images/SambramaWebp_12.webp')
+    height: 900px
+    overflow: hidden
+    background-size: cover
+    width: $background-width
+    background-repeat: no-repeat
+    object-fit: cover
+.about_quote
+    font-size: 41.89px
+    line-height: 72px
+.about_who
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+.about-scroll
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+    // -----------------------FRAME(SECTION 2)----------------------
+.frames-container
+    padding-left: 14%
+.about-frame-text
+    padding-left: 12%
+.about_frame_path
+    font-size: 16px
+    line-height: 28px
+.about_frame_journey
+    font-size: 41.89px
+    line-height: 64px
+
+.frame-image
+    height: 560px
+    width: 419px
+    object-fit: cover;
+
+.frame-subheadings
+    font-size: 25.89px !important
+    line-height: 40px !important
+    letter-spacing: 0.02em
+
+.frame-text
+    width: 309px
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+.about_team
+    padding-left: 12%
+    margin-top: 10%
+    
+.team-heading1
+    font-size: 16px
+    line-height: 28px
+.team-heading2
+    font-size: 41.89px
+    line-height: 64px
+.about-ceo
+    // --------Image----
+    object-fit: cover
+    width: 528px
+    height: 528px
+.about-members
+    margin-top: 10%
+    margin-left: 20%
+    width: 200%
+.about-member-image
+    width: 418px
+    height: 380px
+    border-radius: 0
+    object-fit: cover;
+.about-member-image-pdng
+    margin-left: 40px
+.slide-size
+    width: 418px
+.team-text1
+    font-size: 25.89px
+    line-height: 40px
+    letter-spacing: 0.02em
+.team-text2
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+// --------------------------------------RESPONSIVNESS FOR MOBILE SCREEN-----------------------
+
+@media screen and (max-width: 500px)
+    .about-scroll
+        padding-top: 5% !important
+    .frames-container
+        padding-left: 6%
+    .about-frame-text
+        padding-left: 6%
+    .about_team
+        padding-left: 6%
+    .about_background
+        width: 360px
+        height: 640px
+    .about_quote
+        line-height: 64px
+    .frame-image
+        width: 312px
+        height: 417px
+    .frame-text
+        font-size: 14px
+    .frame-subheadings
+        font-size: 24px
+    .about-ceo
+        width: 312px
+        height: 312px
+    .about-member-image
+        width: 146px
+        height: 145px
+    .team-text1
+        font-size: 20px
+    .team-text2
+        font-size: 14px
+    .visiblity-lg
+        display: none
+        visibility: hidden
+    .visibilty-sm
+        display: block

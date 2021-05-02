@@ -1,0 +1,446 @@
+$color1: #FFFFFF
+$hover-color: rgba(255,255,255,0.8)
+$background-width: 100%
+$text-padding: 12%
+*
+    color: $color1
+    font-family: VisiaPro-Regular
+html 
+    scroll-behavior: smooth
+    // ---------------------------------start hero section-------------------------
+.visibilty-sm
+    display: none
+.size
+    height: 100px
+    width: 100px
+.section1-text
+    margin-left: 12%
+    margin-right: 10%
+    margin-top: 119px
+.service-bg
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url('../images/SambramaWebp_10.webp')
+    height: 900px
+    width: $background-width
+    object-fit: cover
+    overflow: hidden //======SECTION1 BACKGROUND IMAGE
+    background-size: cover
+    background-repeat: no-repeat
+
+//--------------------------------------START NAVIGATION BAR--------------------------
+.navigation
+    margin-left: 12%
+    margin-right: 10%
+    margin-top: 9%
+.navigation-logo
+    font-size: 25.89px
+    line-height: 30px
+    color: $color1
+    
+.navigation-logo:hover
+    text-decoration: none
+    color: $hover-color
+.navigation-link a
+    font-size: 16px
+    line-height: 28px
+    margin-left: 80px
+    transition: 0.3s
+.navigation-link a:hover
+    color: $hover-color !important
+    padding-bottom: 8px
+    border-bottom-style: solid
+    border-bottom-width: 3.1px
+    width: fit-content
+//-------------------------------------  END NAVIGATION BAR-----------------------
+
+//---------------------------------------START NAVIGATION OVERLAY--------------------
+
+    //============================ START NAVIGATION OVERLAY BUTTON===================
+.nav-overlay
+    height: 20px
+    margin-left: 5%
+    margin-top: 22%
+    background: transparent
+
+.nav-rect1
+    border: 1.5px solid $color1
+    background-color: $color1
+    padding-top: 1%
+.nav-rect2
+    padding-top: 1%
+    padding-bottom: 1%
+    margin: 6px
+    border: 1.5px solid $color1
+    background-color: $color1
+.nav-rect3
+    padding-bottom: 1%
+    border: 1.5px solid $color1
+    background-color: $color1
+    //===============================END NAVIGATION OVERLAY BUTTON==================
+
+//=======================================First page of NAVIGATION OF OVERLAY=======
+.navi_overlay
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url('../images/SambramaWebp_18.webp')
+    height: 658px
+    background-size: cover
+    width: 0
+    background-repeat: no-repeat
+    z-index: 999
+    y-index: 1
+    overflow-x: hidden
+    overflow-y: hidden
+    position: fixed
+    transition: 1s
+    margin-left: 0 !important
+    height: 100%
+.nav-text
+    padding-top: 6%
+
+.nav-links a
+    display: block
+    font-size: 41.89px
+    line-height: 72px
+    margin-bottom: 64px
+    transition: 0.5s
+    text-decoration: none
+    color: $color1
+.nav-links a:hover
+    font-size: 32px
+    color: $hover-color
+.nav-mail
+    font-size: 41.8912px
+    line-height: 64px
+    padding-left: 5%
+.nav-quote
+    font-size: 16px
+    line-height: 28px
+    text-transform: uppercase
+    margin-bottom: 51px
+    padding-left: 5%
+//========================================Contact section of NAVIGATION Overlay===============
+.contact_overlay
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url('../images/SambramaWebp_18.webp')
+    height: 658px
+    background-size: cover
+    width: 0
+    background-repeat: no-repeat
+    z-index: 999
+    y-index: 1
+    overflow-x: hidden
+    overflow-y: hidden
+    position: fixed
+    transition: 1s
+    margin-left: 0 !important
+    height: 100%
+    
+.contact-fields
+    font-size: 18px
+    line-height: 40px
+    padding-left: 5%
+.contact-button
+    width: 529px
+    font-size: 25.89px
+    line-height: 40px
+    transition: 0.3s
+    margin-left: 5%
+.contact-button:hover
+    color: $hover-color !important
+    padding-bottom: 8px
+    border-bottom-style: solid
+    border-bottom-width: 3.1px
+    width: fit-content
+.contact-overlay-form
+    display: flex
+    flex-flow: column-reverse
+    margin-bottom: 1em
+    padding-left: 5%
+
+label, input
+    transition: all 0.2s
+    touch-action: manipulation
+
+
+input
+    background-color: transparent
+    border: 0
+    border-bottom: 1px solid #ccc
+    font-family: inherit
+    -webkit-appearance: none
+    border-radius: 0
+    padding: 0
+    cursor: text
+    padding-left: 5%
+
+input:focus
+    outline: 0
+    border-bottom: 1px solid $color1
+input:placeholder-shown + label
+    cursor: text
+    max-width: 66.66%
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    transform-origin: left bottom
+    transform: translate(0, 2.125rem) scale(1.5)
+
+::-webkit-input-placeholder
+    opacity: 0
+    transition: inherit
+
+input:focus::-webkit-input-placeholder
+    opacity: 1
+
+input:not(:placeholder-shown) + label,
+input:focus + label
+    transform: translate(0, 0) scale(1)
+    cursor: pointer
+
+//---------------------------------END NAVIGATION OVERLAY---------------------
+
+// -------------------------------FOOTER--------------------------------
+.footer-bg
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url('../images/SambramaWebp_11.webp')
+    height: 658px
+    overflow: hidden
+    background-size: cover
+    width: $background-width
+    background-repeat: no-repeat
+    object-fit: cover
+.footer-text
+    padding-left: 12%
+    padding-top: 16%
+.footer-mail
+    font-size: 41.8912px
+    line-height: 64px
+.footer-quote
+    font-size: 16px
+    line-height: 28px
+    opacity: 0.9
+    padding-bottom: 50px
+.footer-links a
+    display: block
+    font-size: 22px
+    margin-bottom: 20px
+    line-height: 30px
+    color: $color1
+    transition: 0.3s 
+    text-decoration: none
+.footer-links a:hover
+    color: $hover-color !important
+    font-size: 20px
+    
+.footer-social-links
+    padding: 5%
+//==============================================HOME PAGE==========================
+//---------------------------------------------SECTION 1----------------------
+.hero
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url('../images/hero.webp')
+    height: 900px
+    width: $background-width
+    object-fit: cover
+    overflow: hidden //======SECTION1 BACKGROUND IMAGE
+    background-size: cover
+    background-repeat: no-repeat
+.hero-digi_agen
+    font-size: 16px
+    line-height: 28px
+.hero-tagline
+    font-size: 55px
+    line-height: 108px
+.hero-quote
+    width: 358px
+    height: 168px
+    font-size: 16px
+    line-height: 28px
+    opacity: 0.9
+// ------------------------------End HERO/SECTION 1--------------------------
+
+//--------------------------------- HOME/ SECTION 2-------------------------
+.home-slider-images
+    width: 528px !important
+    height: 378px //===== SECTION2 SLIDER IMAGES
+    border-radius: 0px
+    object-fit: cover
+.home-slider-postion
+    padding-top: 10%
+    padding-left: 10%
+.slider-size
+    padding-right: 60px !important
+
+.slider-text-1
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+.slider-text-2
+    font-size: 41.89px
+    line-height: 64px
+    width: 529px
+    height: 128px
+.slider-text-3
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+.slider-text-4
+    padding-right: 10%
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+.sildes-text1
+    padding-top: 2.1%
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+.slides-text2
+    font-size: 25.89px
+    line-height: 40px
+    letter-spacing: 0.02em
+.slides-text3
+    width: 303px
+    left: 112px
+    top: 474px
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+//-------------------SECTION 3 -------------------
+.home-section3
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/SambramaWebp_19.webp')
+    height: 900px
+    overflow: hidden
+    background-size: cover //=====SECTION3 BACKGROUND-IMAGE
+    width: $background-width
+    background-repeat: no-repeat
+    object-fit: cover
+.home-section3-text
+    padding-left: 10%
+    padding-top: 20%
+.section3-text1
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0.04em
+    padding-bottom: 23px
+.section3-text2
+    width: 580px
+    font-size: 41.8912px
+    line-height: 64px
+@media screen and ( max-width: 500px )
+    .section1-text
+        margin-top: 18%
+        margin-left: 4%
+    ////////////visibiltiy-------------------
+    
+    .visiblity-lg
+        display: none
+        visibility: hidden
+    .visibilty-sm
+        display: block
+    //=============OVERLAY BUTTON FOR SMALL SCREEN
+    .nav-text
+        padding-top: 15%
+        margin-left: 4%
+        margin-right: 4%
+    .nav-rect1
+        padding-top: 1%
+        margin-left: 40% !important
+    .nav-rect2
+        padding-top: 0%
+        padding-bottom: 0%
+        margin-right: 4% !important
+        margin-left: 0% !important
+    .nav-rect3
+        padding-bottom: 0%
+        margin-right: 40% !important
+    .nav-overlay
+        margin-left: 85% !important
+        padding-right: 5%
+        margin-top: 10%
+        position: fixed
+    .navi-overlay
+        margin-left: 0 !important
+    
+    //------------------------HORIZONTAL NAVIGATION---OVERLAY PAGE-----------------------
+    .nav-links a
+        display: inline
+        font-size: 16px
+        line-height: 72px
+        padding: 7%
+    .nav-links a:hover
+        font-size: 18px
+    .nav-mail
+        font-size: 24px
+        line-height: 40px
+    .nav-quote
+        font-size: 14px
+        padding-right: 7%
+        
+    
+    //========Contact NAVOVERLAY
+    
+    .contact-fields
+        font-size: 14px
+    .contact-button
+        font-size: 18.89px
+    //----------------VERTICAL NAVIGATION
+    .navigation
+        margin-left: 0%
+    .navigation-logo
+        font-size: 20px
+        line-height: 23px
+        
+    // --------------HOME---SECTION 1---------
+
+    .hero-tagline-sm 
+        font-size: 48px
+    .hero
+        height: 640px
+    // ------------- HOME---SECTION 2---------
+    .home-slider-postion
+        padding-left: 5%
+    .slider-text-2
+        font-size: 24px
+        line-height: 40px
+    .section3-text2
+        font-size: 24px
+        line-height: 40px
+    .slider-text-2
+        font-size: 24px
+        line-height: 40px
+    .slider-text-4
+        font-size: 14px
+    .slider-size
+        width: 249px
+    .home-slider-images
+        width: 229px !important
+        height: 208px
+    .slides-text2
+        font-size: 20px
+    .slides-text3
+        font-size: 12px
+        line-height: 24px
+        width: 220px
+
+    // ---------------HOME-------SECTION 3-----------
+    .home-section3-text
+        padding-left: 5%
+    .home-section3
+        height: 640px
+    .section3-text2
+        width: 309px
+        font-size: 24px
+        line-height: 40px
+    //------------------FOOTER-----------
+    .footer-text
+        padding-left: 6%
+    .footer-bg
+        height: 640px
+    .footer-mail
+        font-size: 24px
+        line-height: 40px
+    .footer-quote
+        width: 220px
+        height: 200px
+    .footer-links
+        margin-top: 15%
+    .footer-links a
+        display: inline
+        font-size: 16px
+        line-height: 72px
+        padding: 7%

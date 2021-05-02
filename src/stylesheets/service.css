@@ -1,0 +1,101 @@
+.service-bg {
+  background: -webkit-gradient(linear, left top, right top, from(#000000), to(rgba(0, 0, 0, 0.4))), url("../images/SambramaWebp_10.webp");
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url("../images/SambramaWebp_10.webp");
+  height: 900px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.service-slider-size {
+  width: 1136px;
+  margin-right: 152px;
+}
+
+.service-slide-sm {
+  width: 199px;
+}
+
+.slider-indicator span {
+  width: 122px;
+  font-size: 25.89px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  padding-bottom: 8px;
+  margin: 2%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.slider-indicator-heading {
+  width: 122px;
+  font-size: 24.89px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  padding-bottom: 8px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.service-slider-icons {
+  margin-left: 5.5%;
+  margin-right: 8%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.service-slider-text1 {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+
+.service-slider-text2 {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+}
+
+.service-section4 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url("../images/SambramaWebp_22.webp");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/SambramaWebp_22.webp");
+  height: 720px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.service-section4-text {
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+@media screen and (max-width: 500px) {
+  .service-bg {
+    height: 640px;
+  }
+  .service-slider-text1 {
+    font-size: 16px;
+  }
+  .service-slider-text2 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .slider-indicator {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+  }
+}
+/*# sourceMappingURL=service.css.map */
