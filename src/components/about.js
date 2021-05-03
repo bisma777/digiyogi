@@ -42,7 +42,7 @@ function About(){
             <div className="about_frame_path">THE ASTITVA</div>
             <div className="about_frame_journey">Story Behind Our ourney</div>
             </div>
-            <div className="frames-container container text-left">
+            <div className="frames-container container ">
             <div className="row pt-5 mt-5">
                         <div className="col-md-6">
                         <img className="img-fluid frame-image" variant="top" src={frame1} />
@@ -57,7 +57,7 @@ function About(){
                         </div>
                 </div>
                 {/* ---------------------------Frame on Large Screen------------------- */}
-                <div className="row pt-lg-5 mt-lg-5 pt-2 mt-2  visiblity-lg">
+                <div className="row pt-lg-5 mt-lg-5 pt-2 mt-2   visiblity-lg">
                         <div className="col-md-6 d-flex align-items-center">
                             <div className="frame-text">
                             <div className="frame-subheadings pb-2">October 2020 – Beginning of everything</div>

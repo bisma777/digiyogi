@@ -134,13 +134,13 @@ body {
     padding-top: 5% !important;
   }
   .frames-container {
-    padding-left: 6%;
+    padding-left: 4%;
   }
   .about-frame-text {
-    padding-left: 6%;
+    padding-left: 4%;
   }
   .about_team {
-    padding-left: 6%;
+    padding-left: 4%;
   }
   .about_background {
     width: 360px;
@@ -150,7 +150,6 @@ body {
     line-height: 64px;
   }
   .frame-image {
-    width: 312px;
     height: 417px;
   }
   .frame-text {
@@ -160,7 +159,6 @@ body {
     font-size: 24px;
   }
   .about-ceo {
-    width: 312px;
     height: 312px;
   }
   .about-member-image {

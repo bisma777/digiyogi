@@ -34,7 +34,7 @@ function App() {
                   <a className="footer-social-links"><RiFacebookLine size={36}/></a>
                 </div>
                 </div>
-                <div className="col-lg-8 col-12 text-center footer-links">
+                <div className="col-lg-8 col-12  text-center footer-links ">
                 <Link to="/About" > About</Link>
                 <Link >Careers</Link>
                 <Link >Contact</Link>

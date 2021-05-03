@@ -77,23 +77,23 @@ html {
 }
 
 .nav-rect1 {
-  border: 1.5px solid #FFFFFF;
-  background-color: #FFFFFF;
-  padding-top: 1%;
+  border: 1.5px solid #FFFFFF !important;
+  background-color: #FFFFFF !important;
+  padding-top: 1% !important;
 }
 
 .nav-rect2 {
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin: 6px;
-  border: 1.5px solid #FFFFFF;
-  background-color: #FFFFFF;
+  padding-top: 1%  !important;
+  padding-bottom: 1%  !important;
+  margin: 6px  !important;
+  border: 1.5px solid #FFFFFF !important;
+  background-color: #FFFFFF !important;
 }
 
 .nav-rect3 {
-  padding-bottom: 1%;
-  border: 1.5px solid #FFFFFF;
-  background-color: #FFFFFF;
+  padding-bottom: 1%  !important;
+  border: 1.5px solid #FFFFFF !important;
+  background-color: #FFFFFF !important;
 }
 
 .navi_overlay {
@@ -443,7 +443,7 @@ input:focus + label {
     display: block;
   }
   .nav-text {
-    padding-top: 15%;
+    padding-top: 20%;
     margin-left: 4%;
     margin-right: 4%;
   }
@@ -474,7 +474,7 @@ input:focus + label {
     display: inline;
     font-size: 16px;
     line-height: 72px;
-    padding: 6%;
+    padding: 3%;
   }
   .nav-links a:hover {
     font-size: 18px;
@@ -571,7 +571,7 @@ input:focus + label {
     display: inline;
     font-size: 16px;
     line-height: 72px;
-    padding: 7%;
+    padding: 3%;
   }
 }
 /*# sourceMappingURL=style.css.map */
