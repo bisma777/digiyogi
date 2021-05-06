@@ -7,8 +7,8 @@ function Navigation(){
         <div className="row navigation">
                 <Link to="/" className="col-lg-6 col-12 navigation-logo">Digiyogi</Link>
                 <div className="col-lg-6 text-right navigation-link visiblity-lg">
-                <a>WORK</a>
-                <a>CONTACT</a>
+                <a href="#!">WORK</a>
+                <a href="#!">CONTACT</a>
                 </div>
         </div>
     )

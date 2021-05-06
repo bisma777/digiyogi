@@ -2,7 +2,7 @@ import React from 'react';
 import '../stylesheets/style.css'
 import '../stylesheets/about.css'
 import Navigation from '../components/navigation'
-import Home_service_crousel from '../components/home_service_crousel'
+import HomeServiceCrousel from '../components/home_service_crousel'
 import "aos/dist/aos.css"
 import Aos from 'aos'
 function Home(){
@@ -41,7 +41,7 @@ function Home(){
         </div>      
         </div>
         {/* --------------------------------------END HERO BANNER/ SECTION1------------------------- */}
-                <Home_service_crousel/>
+                <HomeServiceCrousel/>
        {/* -----------------------------------------START SLIDER/ SECTION 2---------------- */}
        
         

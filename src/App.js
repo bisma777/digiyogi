@@ -7,7 +7,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';  
 import Home from '../src/components/home.js';
 import About from '../src/components/about.js'
-import Overlay_btn from '../src/components/overlay_btn'
+import Overlaybtn from '../src/components/overlay_btn'
 import Service from '../src/components/service'
 import ScrollToTop from '../src/components/scroll_top'
 
@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div>
      
-      <Overlay_btn/>
+      <Overlaybtn/>
       <Route exact path='/' component={Home}></Route>
       <Route  path='/About' component={About}></Route>
       <Route  path='/Service' component={Service}></Route> 
@@ -29,15 +29,15 @@ function App() {
                 <div className="footer-quote">DigiYogi Technologies Pvt Ltd is an Indian IT firm, Committed To Provide Quality 
                   Product in Affordable Price Range, DigiYogi HQ in Mangaluru Karnataka. </div>
                 <div className="pt-2 text-center col-12" >
-                  <a className="footer-social-links"><FaInstagram size={36}/></a>
-                  <a className="footer-social-links"><RiLinkedinLine size={36}/></a>
-                  <a className="footer-social-links"><RiFacebookLine size={36}/></a>
+                  <a  href="#!" className="footer-social-links"><FaInstagram size={36}/></a>
+                  <a  href="#!"  className="footer-social-links"><RiLinkedinLine size={36}/></a>
+                  <a  href="#!"  className="footer-social-links"><RiFacebookLine size={36}/></a>
                 </div>
                 </div>
                 <div className="col-lg-8 col-12  text-center footer-links ">
                 <Link to="/About" > About</Link>
-                <Link >Careers</Link>
-                <Link >Contact</Link>
+                <Link to="" >Careers</Link>
+                <Link to=""  >Contact</Link>
                 <Link to="/Service"> Services</Link> 
               </div>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from '../components/navigation'
-import Home_service_crousel from '../components/home_service_crousel'
-import Service_slider from '../components/service_slider'
+import HomeServiceCrousel from '../components/home_service_crousel'
+import ServiceSlider from '../components/service_slider'
 import "aos/dist/aos.css"
 import Aos from 'aos'
 function Service() {
@@ -24,7 +24,7 @@ function Service() {
         {/* ----------------------------------------- END SERVICE-SECTION1---------------------- */}
 
         {/* --------------------------------------------- START SERVICE-SECTION2------------------- */}
-            <Home_service_crousel/>
+            <HomeServiceCrousel/>
         {/* -------------------------------------------------- END SERVICE-SECTION2------------------- */}
         <div className="home-slider-postion">
                 <div className="container-fluid pb-4">
@@ -35,7 +35,7 @@ function Service() {
                             craft our products & experiences.</div>
                 </div>
                 </div>
-                <Service_slider/>
+                <ServiceSlider/>
         </div>
         {/* -----------------------------------------------START SERVICE-SECTION 4----------------- */}
         <div className="service-section4">

@@ -42,10 +42,10 @@ function About(){
             <div className="about_frame_path">THE ASTITVA</div>
             <div className="about_frame_journey">Story Behind Our ourney</div>
             </div>
-            <div className="frames-container container ">
+            <div className="frames-container container text-left">
             <div className="row pt-5 mt-5">
                         <div className="col-md-6">
-                        <img className="img-fluid frame-image" variant="top" src={frame1} />
+                        <img className="img-fluid frame-image" variant="top" alt="" src={frame1} />
                         </div>
                         <div className="col-md-6 d-flex align-items-center ">
                             <div className="frame-text " >
@@ -66,7 +66,7 @@ function About(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                        <img className="img-fluid frame-image" variant="top" src={frame2} />
+                        <img className="img-fluid frame-image" variant="top" alt="" src={frame2} />
                         </div>
                 </div>
                 {/* ---------------------------END frame on large screen-------------------- */}
@@ -74,7 +74,7 @@ function About(){
                 {/* --------------------------------START frame on small screen---------- */}
                 <div className="row pt-5 mt-5 visibilty-sm pt-2 mt-2">
                         <div className="col-md-6">
-                        <img className="img-fluid frame-image" variant="top" src={frame2} />
+                        <img className="img-fluid frame-image" variant="top" alt="" src={frame2} />
                         </div>
                         <div className="col-md-6 d-flex align-items-center">
                             <div className="frame-text">
@@ -87,7 +87,7 @@ function About(){
                 {/* -------------------------END frame on smalll screen--------------------- */}
                 <div className="row pt-lg-5 mt-lg-5 pt-2 mt-2">
                         <div className="col-md-6">
-                        <img className="img-fluid frame-image" variant="top" src={frame3} />
+                        <img className="img-fluid frame-image" variant="top" alt="" src={frame3} />
                         </div>
                         <div className="col-md-6 d-flex align-items-center ">
                             <div className="frame-text">
@@ -110,7 +110,7 @@ function About(){
           
                 <div className="row pt-5">
                         <div className="col-md-6">
-                        <img className="img-fluid frame-image about-ceo" variant="top" src={ceo} />
+                        <img className="img-fluid frame-image about-ceo" variant="top" alt="" src={ceo} />
                         </div>
                         <div className="col-md-6 d-flex align-items-center text-left pl-lg-5 pl-3">
                             <div className="frame-text">
@@ -130,7 +130,7 @@ function About(){
         <div className="about_team  visiblity-lg ">
         <OwlCarousel autoWidth={true}>
                 <Card  className="bg-transparent slide-size ">
-                        <Card.Img className="about-member-image" variant="top" src={team1} />
+                        <Card.Img className="about-member-image" variant="top" alt="" src={team1} />
                         <Card.Body className="text-center">
                         <Card.Title>Poul Back</Card.Title>
                                 <Card.Text>
@@ -139,7 +139,7 @@ function About(){
                         </Card.Body>
                 </Card>
                 <Card  className="bg-transparent about-member-image-pdng slide-size ">    
-                        <Card.Img className="about-member-image" variant="top" src={team2} />
+                        <Card.Img className="about-member-image" variant="top" alt="" src={team2} />
                         <Card.Body className="text-center">
                         <Card.Title>Karl Konard</Card.Title>
                                 <Card.Text>
@@ -148,7 +148,7 @@ function About(){
                         </Card.Body>      
                 </Card>
                 <Card  className="bg-transparent about-member-image-pdng slide-size ">    
-                        <Card.Img className="about-member-image " variant="top" src={team3} />
+                        <Card.Img className="about-member-image " variant="top" alt="" src={team3} />
                         <Card.Body className="text-center">
                         <Card.Title>Gourav Patel</Card.Title>
                                 <Card.Text>
@@ -157,7 +157,7 @@ function About(){
                         </Card.Body>      
                 </Card>
                 <Card  className=" bg-transparent about-member-image-pdng slide-size ">    
-                        <img className="about-member-image" variant="top" src={team4} />
+                        <img className="about-member-image" variant="top" alt="" src={team4} />
                         <Card.Body className="text-center">
                         <Card.Title>Mark Garmann</Card.Title>
                                 <Card.Text>
@@ -166,7 +166,7 @@ function About(){
                         </Card.Body>      
                 </Card>
                 <Card  className=" bg-transparent about-member-image-pdng  slide-size ">    
-                        <img className="about-member-image" variant="top" src={team5} />
+                        <img className="about-member-image" variant="top" alt="" src={team5} />
                         <Card.Body className="text-center">
                         <Card.Title>Arun Mist</Card.Title>
                                 <Card.Text>
@@ -183,22 +183,22 @@ function About(){
       <div className="container mx-auto visibilty-sm">
               <div className=" row text-center">
                       <div className="col-6 pb-4 ">
-                      <img className="img-fluid  about-member-image" variant="top" src={team1} />
+                      <img className="img-fluid  about-member-image" variant="top" alt="" src={team1} />
                       <div className="team-text1">Poul Back</div>
                       <div className="team-text2">FOUNDER</div>
                       </div>
                       <div className="col-6 ">
-                      <img className="img-fluid about-member-image" variant="top" src={team2} />
+                      <img className="img-fluid about-member-image" variant="top" alt="" src={team2} />
                       <div className="team-text1">Karl Konard</div>
                       <div className="team-text2">FOUNDER</div>
                       </div>
                       <div className="col-6 pb-4 ">
-                      <img className="img-fluid  about-member-image" variant="top" src={team3} />
+                      <img className="img-fluid  about-member-image" variant="top" alt="" src={team3} />
                       <div className="team-text1">Gaurav</div>
                       <div className="team-text2">MENTOR</div>
                       </div>
                       <div className="col-6">
-                      <img className="img-fluid  about-member-image" variant="top" src={team4} />
+                      <img className="img-fluid  about-member-image" variant="top"  alt="" src={team4} />
                       <div className="team-text1">Marc Garman</div>
                       <div className="team-text2">CO - FOUNDER</div>
                       </div>

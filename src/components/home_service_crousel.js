@@ -8,7 +8,7 @@ import service3 from '../images/SambramaWebp_23.webp'
 import service4 from '../images/SambramaWebp_6.webp'
 import service5 from '../images/SambramaWebp_3.webp'
 
-function Home_service_crousel() {
+function HomeServiceCrousel() {
     return (
         <div>
              <div className="home-slider-postion">
@@ -84,4 +84,4 @@ function Home_service_crousel() {
     )
 }
 
-export default Home_service_crousel
+export default HomeServiceCrousel

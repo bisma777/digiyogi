@@ -13,7 +13,7 @@ import{BiRevision} from 'react-icons/bi'
 import OwlCarousel from 'react-owl-carousel'
 import {Card} from 'react-bootstrap'
 
-function Service_slider() {
+function ServiceSlider() {
     return (
         <div>
             <div className="visiblity-lg container-fluid">
@@ -347,4 +347,4 @@ function Service_slider() {
     )
 }
 
-export default Service_slider
+export default ServiceSlider
